@@ -1,0 +1,121 @@
+/* HEADER SECTION */
+#logo {
+  width: 60px;
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+header {
+  height: 100px;
+  display: flex;
+}
+
+header div {
+  width: 30%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#home-link {
+  margin-left: 10px;
+}
+
+/* HERO SECTION */
+#hero-section {
+  display: flex;
+  height: 450px;
+}
+
+#hero-image {
+  width: 50%;
+  text-align: right;
+}
+
+#hero-image img {
+  height: 100%;
+}
+
+#hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*  PICTURE SECTION */
+#pic-section h2, #vid-section h2, #reviews h2 {
+  text-align: center;
+}
+
+#pic-gallery {
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+}
+
+#pic-gallery img {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+}
+
+/* VIDEO SECTION */
+/* borrowed from https://www.ostraining.com/blog/coding/responsive-videos/ */
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#vid-gallery {
+  display: flex;
+}
+
+.video {
+  width: 48%;
+  margin: 0 auto;
+}
+
+/* REVIEWS SECTION */
+#reviewers {
+  display: flex;
+}
+
+.reviewer {
+  text-align: center;
+}
+
+#reviewers img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+}
+
+/* TRY ME PAGE */
+#try-main {
+  height: 70vh;
+}
